@@ -1,0 +1,140 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+h2, h4 {
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: "Roboto", sans-serif;
+}
+
+span {
+  text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+nav {
+  background: rgb(238, 237, 237);
+  height: 3rem;
+  display: grid;
+  align-items: center;
+  box-shadow: rgb(53, 53, 53);
+}
+
+.nav-center {
+  width: 90vw;
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-center h4 {
+  margin-bottom: 0;
+  color: hsl(205, 78%, 60%);
+}
+
+.nav-links {
+  display: flex;
+}
+
+nav a {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1rem;
+  color: hsl(205, 86%, 17%);
+  letter-spacing: 0.1rem;
+  margin-right: 1rem;
+}
+
+nav a:hover {
+  color: hsl(205, 78%, 60%);
+}
+
+main {
+  min-height: calc(100vh - 3rem);
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.container h2 {
+  background: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.color {
+  color: hsl(205, 78%, 60%);
+}
+
+.btn-hero {
+  font-family: "Roboto", sans-serif;;
+  text-transform: uppercase;
+  background: transparent;
+  color: black;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  font-weight: 700;
+  transition: all 0.3s linear;
+  border: 2px solid black;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.btn-hero:hover {
+  color: white;
+  background: black;
+}
+
+@media screen and (min-width: 800px) {
+  h2 {
+    font-size: 4rem;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
+  h2 {
+    line-height: 1;
+    font-size: 2.5rem;
+  }
+}
