@@ -13,3 +13,4 @@ As a user, I want to be able to randomly select a color so that the background c
 HTML, CSS, Vanilla Javascript, arrays, document.getElementById(), document.querySelector(), addEventListener(), document.body.style.backgroundColor, Math.floor(), Math.random(), & array.length.
 
 ## Screenshots
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/76802722/153299521-69fb11f3-4035-4471-a162-0b6bb623730b.gif)
